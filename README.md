@@ -1,5 +1,5 @@
 # PhonePi_SampleServer
-This is a simple Flask based server with WebSocket support that accepts the sensor data and writes it to a text file,
+This is a simple Flask based server with WebSocket support that accepts the sensor data and writes it to a text file. This is a companion sample server fo the PhonePi Sensor Streamer app.
 
 # Steps:
 Clone the repository or download the zip file and unzip it to a directory of your choice.
@@ -13,4 +13,4 @@ cd to the directory where the folder was extracted
  python PhonePi.py 
 
 ```
-M
+You can make any changes you want to to PhonePi.py
