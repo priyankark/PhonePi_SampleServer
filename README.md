@@ -25,3 +25,22 @@ You can make any changes you want to to PhonePi.py
 * Light Sensor: light
 * Proximity: isNear, value, maxRange
 * Link: https://github.com/kprimice/react-native-sensor-manager
+
+# Server deatils
+This makes use of flask_sockets. Note the use of namespaces which are in accordance with the sensor's name. Sample code:
+
+```python
+@sockets.route('/accelerometer') 
+def echo_socket(ws):
+	 f=open("accelerometer.txt","a")
+	 while True:
+		message = ws.receive()
+		print(message) 
+        	ws.send(message)
+		print>>f,message
+	 f.close()
+```
+The app would then establish a connection to ws://'+url+'//accelerometer
+where url is what the user enters (ip address:port) 
+
+
