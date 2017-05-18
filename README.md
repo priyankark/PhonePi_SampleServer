@@ -26,7 +26,7 @@ You can make any changes you want to to PhonePi.py
 * Proximity: isNear, value, maxRange
 * Link: https://github.com/kprimice/react-native-sensor-manager
 
-# Server deatils
+# Server details
 This makes use of flask_sockets. Note the use of namespaces which are in accordance with the sensor's name. Sample code:
 
 ```python
