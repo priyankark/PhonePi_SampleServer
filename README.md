@@ -40,7 +40,7 @@ def echo_socket(ws):
 		print>>f,message
 	 f.close()
 ```
-The app would then establish a connection to ws://'+url+'//accelerometer
+The app would then establish a connection to ws://url//accelerometer
 where url is what the user enters (ip address:port) 
 
 
