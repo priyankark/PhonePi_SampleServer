@@ -8,9 +8,10 @@ This is a simple Flask based server with WebSocket support that accepts the sens
 * cd to the directory where the folder was extracted in the command line
 
 ## To Run the Server (Python 2.7)
-*` cd PhonePi_SampleServer-master`
-*` pip install -r requirements.txt`
-*` python PhonePi.py `
+ ```
+ cd PhonePi_SampleServer-master`
+ pip install -r requirements.txt`
+ python PhonePi.py ```
 
 ## To use the app
 * Make sure both your phone and the laptop/raspi are on same network.
@@ -18,7 +19,6 @@ This is a simple Flask based server with WebSocket support that accepts the sens
 * Simply type the ip address-colon-port number. Example: 192.168.1.24:5000 in the app's input bar.
 * Switch on whatever sensor's data you want to stream.
 
-```
 You can make any changes you want to to PhonePi.py
 
 ## Data Format Cheat sheet:
