@@ -9,8 +9,8 @@ This is a simple Flask based server with WebSocket support that accepts the sens
 
 ## To Run the Server (Python 2.7)
  ```
- cd PhonePi_SampleServer-master`
- pip install -r requirements.txt`
+ cd PhonePi_SampleServer-master
+ pip install -r requirements.txt
  python PhonePi.py ```
 
 ## To use the app
