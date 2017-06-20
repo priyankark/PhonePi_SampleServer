@@ -8,9 +8,9 @@ This is a simple Flask based server with WebSocket support that accepts the sens
 * cd to the directory where the folder was extracted in the command line
 
 ## To Run the Server (Python 2.7)
-` cd PhonePi_SampleServer-master`
-` pip install -r requirements.txt`
-` python PhonePi.py `
+*` cd PhonePi_SampleServer-master`
+*` pip install -r requirements.txt`
+*` python PhonePi.py `
 
 ## To use the app
 * Make sure both your phone and the laptop/raspi are on same network.
