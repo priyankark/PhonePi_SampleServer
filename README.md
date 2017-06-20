@@ -3,14 +3,20 @@ This is a simple Flask based server with WebSocket support that accepts the sens
 
 # Steps:
 * Clone the repository or download the zip file and unzip it to a directory of your choice.
-* cd to the directory where the folder was extracted
+* Make sure you have python 2.7 installed and you can access both pip and python from the command line/ terminal
+* To check the same open command line/terminal and type `python --version` and `pip --version`
+* cd to the directory where the folder was extracted in the command line
 
 ## To Run the Server (Python 2.7)
-```
- source PhonePi_SampleServer-master/bin/activate
- cd PhonePi_SampleServer-master
- pip install -r requirements.txt
- python PhonePi.py 
+` cd PhonePi_SampleServer-master`
+` pip install -r requirements.txt`
+` python PhonePi.py `
+
+## To use the app
+* Make sure both your phone and the laptop/raspi are on same network.
+* Find the internal ip address of the raspi/laptop 
+* Simply type the ip address-colon-port number. Example: 192.168.1.24:5000 in the app's input bar.
+* Switch on whatever sensor's data you want to stream.
 
 ```
 You can make any changes you want to to PhonePi.py
