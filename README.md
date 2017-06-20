@@ -11,7 +11,8 @@ This is a simple Flask based server with WebSocket support that accepts the sens
  ```
  cd PhonePi_SampleServer-master
  pip install -r requirements.txt
- python PhonePi.py ```
+ python PhonePi.py
+ ```
 
 ## To use the app
 * Make sure both your phone and the laptop/raspi are on same network.
