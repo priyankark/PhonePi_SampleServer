@@ -17,7 +17,7 @@ This is a simple Flask based server with WebSocket support that accepts the sens
 ## To use the app
 * Make sure both your phone and the laptop/raspi are on same network.
 * Find the internal ip address of the raspi/laptop 
-* Simply type the ip address-colon-port number. Example: 192.168.1.24:5000 in the app's input bar.
+* Simply type the ip address-colon-port number. Example: 192.168.1.24:5000 in the app's input bar. You don't need the port number     if you are using PhonePi+. Example: 192.168.1.24
 * Switch on whatever sensor's data you want to stream.
 
 You can make any changes you want to to PhonePi.py
