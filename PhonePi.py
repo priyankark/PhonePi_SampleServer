@@ -1,10 +1,6 @@
 import sys
 import numpy as np
 import pandas as pd
-import matplotlib
-#matplotlib.use('macosx')
-import matplotlib.pyplot as plt
-
 from flask import Flask
 from flask_sockets import Sockets
 
