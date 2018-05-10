@@ -1,6 +1,4 @@
 import sys
-import numpy as np
-import pandas as pd
 from flask import Flask
 from flask_sockets import Sockets
 
