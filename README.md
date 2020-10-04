@@ -52,4 +52,9 @@ def echo_socket(ws):
 The app would then establish a connection to ws://url//accelerometer
 where url is what the user enters (ip address:port) 
 
+## Contribution guidelines
+This repository is open to contributions. 
+On the server side, we are looking to support sample servers in more languages and frameworks such as node.js, Go etc.
+Please feel free to raise PRs!
+
 ### For more support, please e-mail priyankar.kumar98@gmail.com
