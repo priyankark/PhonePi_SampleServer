@@ -1,5 +1,3 @@
-# Note: Use PhonePi+ for free to hack up solutions for the COVID19 crisis we are facing. Use the CSV above to get the promo codes.
-
 # PhonePi_SampleServer
 This is a simple Flask based server with WebSocket support that accepts the sensor data and writes it to a text file. This is a companion sample server fo the PhonePi Sensor Streamer app.
 
@@ -54,4 +52,4 @@ def echo_socket(ws):
 The app would then establish a connection to ws://url//accelerometer
 where url is what the user enters (ip address:port) 
 
-
+## Support: priyankar.kumar98@gmail.com
