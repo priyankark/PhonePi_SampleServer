@@ -9,14 +9,7 @@ This is a simple Flask based server with WebSocket support that accepts the sens
 * To check the same open command line/terminal and type `python --version` and `pip --version`
 * cd to the directory where the folder was extracted in the command line
 
-## To Run the Server (Python 2.7)
- ```
- cd PhonePi_SampleServer-master
- pip2 install flask
- pip2 install flask-sockets
- python2 PhonePi.py
- ```
-## To Run the Server (Python 3.0)
+## To Run the Server (version >= Python 3.0)
  ```
  cd PhonePi_SampleServer-master
  pip3 install flask
