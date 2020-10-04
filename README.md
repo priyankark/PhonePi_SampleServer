@@ -12,13 +12,15 @@ This is a simple Flask based server with WebSocket support that accepts the sens
 ## To Run the Server (Python 2.7)
  ```
  cd PhonePi_SampleServer-master
- pip2 install -r requirements.txt
+ pip2 install flask
+ pip2 install flask-sockets
  python2 PhonePi.py
  ```
 ## To Run the Server (Python 3.0)
  ```
  cd PhonePi_SampleServer-master
- pip3 install -r requirements.txt
+ pip3 install flask
+ pip3 install flask-sockets
  python3 PhonePiPython3.py
  ```
 
