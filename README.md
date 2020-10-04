@@ -7,12 +7,12 @@ This is a simple Flask based server with WebSocket support that accepts the sens
 * To check the same open command line/terminal and type `python --version` and `pip --version`
 * cd to the directory where the folder was extracted in the command line
 
-## To Run the Server (version >= Python 3.0)
+## To Run the Python Server (version >= Python 3.0)
  ```
- cd PhonePi_SampleServer-master
+ cd PhonePi_SampleServer-master/Python
  pip3 install flask
  pip3 install flask-sockets
- python3 PhonePiPython3.py
+ python3 PhonePi.py
  ```
 
 ## To use the app
@@ -52,4 +52,4 @@ def echo_socket(ws):
 The app would then establish a connection to ws://url//accelerometer
 where url is what the user enters (ip address:port) 
 
-## Support: priyankar.kumar98@gmail.com
+### For more support, please e-mail priyankar.kumar98@gmail.com
