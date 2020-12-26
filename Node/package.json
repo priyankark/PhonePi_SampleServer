@@ -1,0 +1,19 @@
+{
+  "name": "phonepi_node",
+  "version": "1.0.0",
+  "description": "This is a companion server to the PhonePi Sensor Streamer app",
+  "main": "phonePi.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node phonepi"
+  },
+  "keywords": [
+    "phonepi"
+  ],
+  "author": "Priyankar Kumar",
+  "license": "MIT",
+  "dependencies": {
+    "ip": "^1.1.5",
+    "ws": "^7.4.1"
+  }
+}
