@@ -1,18 +1,27 @@
 # PhonePi_SampleServer
-This is a simple Flask based server with WebSocket support that accepts the sensor data and writes it to a text file. This is a companion sample server fo the PhonePi Sensor Streamer app.
+These are simple servers with WebSocket support that accept the sensor data and write it to a text file. These are companion sample servers for the PhonePi Sensor Streamer app.
 
 # Steps:
 * Clone the repository or download the zip file and unzip it to a directory of your choice.
+
+## To Run the Python Server (version >= Python 3.0)
+
 * Make sure you have python (version >=3) installed and you can access both pip and python from the command line/ terminal
 * To check the same open command line/terminal and type `python --version` and `pip --version`
 * cd to the directory where the folder was extracted in the command line
 
-## To Run the Python Server (version >= Python 3.0)
  ```
  cd PhonePi_SampleServer-master/Python
  pip3 install flask
  pip3 install flask-sockets
  python3 PhonePi.py
+ ```
+ ## To run the Node Server (latest version recommended)
+ 
+ ```
+ cd Node
+ npm install
+ npm start
  ```
 
 ## To use the app
@@ -22,7 +31,7 @@ This is a simple Flask based server with WebSocket support that accepts the sens
 * You don't need the port number if you are using Phone Pi+. Just input the ip address. Example: 192.168.1.24
 * Switch on whatever sensor's data you want to stream.
 
-You can make any changes you want to to PhonePi.py
+You can make any changes you want to to PhonePi.py or PhonePi.js
 
 ## Data Format Cheat sheet:
 * Accelerometer: x,y,z
@@ -35,7 +44,7 @@ You can make any changes you want to to PhonePi.py
 * Proximity: isNear, value, maxRange
 * Link: https://github.com/kprimice/react-native-sensor-manager
 
-# Server details
+# Server details (Python)
 This makes use of flask_sockets. Note the use of namespaces which are in accordance with the sensor's name. Sample code:
 
 ```python
