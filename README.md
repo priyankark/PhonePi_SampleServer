@@ -11,6 +11,14 @@ These are simple servers with WebSocket support that accept the sensor data and 
 * cd to the directory where the folder was extracted in the command line
 * Optional Step: It's highly recommended, you create a virtual env before installing dependencies. Activate the virtual environment and proceed. OS specific steps are available in the docs [https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/]
 
+**Brief Summary of steps to follow to create virtual env**
+```
+cd Python
+py -m venv env # Create virtual env
+source env/bin/activate (On Linux or Mac) or .\env\Scripts\activate (On Windows)
+```
+
+**Final Installation and run steps**
  ```
  cd PhonePi_SampleServer-master/Python
  pip install -r requirements.txt 
