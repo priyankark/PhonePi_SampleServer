@@ -11,7 +11,7 @@ These are simple servers with WebSocket support that accept the sensor data and 
 * cd to the directory where the folder was extracted in the command line
 * Optional Step: It's highly recommended, you create a virtual env before installing dependencies. Activate the virtual environment and proceed. OS specific steps are available in the docs [https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/]
 
-**Brief Summary of steps to follow to create virtual env**
+**Brief Summary of steps to follow to create virtual env [Optional Step]**
 ```
 cd Python
 py -m venv env # Create virtual env
