@@ -9,11 +9,11 @@ These are simple servers with WebSocket support that accept the sensor data and 
 * Make sure you have python (version >=3) installed and you can access both pip and python from the command line/ terminal
 * To check the same open command line/terminal and type `python --version` and `pip --version`
 * cd to the directory where the folder was extracted in the command line
+* Optional Step: It's highly recommended, you create a virtual env before installing dependencies. Activate the virtual environment and proceed. OS specific steps are available in the docs [https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/]
 
  ```
  cd PhonePi_SampleServer-master/Python
- pip3 install flask
- pip3 install flask-sockets
+ pip install -r requirements.txt 
  python3 PhonePi.py
  ```
  ## To run the Node Server (latest version recommended)
