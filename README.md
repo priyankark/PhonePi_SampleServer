@@ -14,6 +14,7 @@ These are simple servers with WebSocket support that accept the sensor data and 
 **Brief Summary of steps to follow to create virtual env [Optional Step]**
 ```
 cd Python
+cd Flask or cd WebSocket # Depending upon which server you want to use
 py -m venv env # Create virtual env
 source env/bin/activate (On Linux or Mac) or .\env\Scripts\activate (On Windows)
 ```
@@ -21,6 +22,7 @@ source env/bin/activate (On Linux or Mac) or .\env\Scripts\activate (On Windows)
 **Final Installation and run steps**
  ```
  cd PhonePi_SampleServer-master/Python
+ cd Flask or cd WebSocket # Depending upon which server you want to use
  pip install -r requirements.txt 
  python3 PhonePi.py
  ```
