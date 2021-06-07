@@ -5,7 +5,7 @@ const http = require("http");
 const fs = require("fs");
 const url = require("url");
 
-console.dir(`Please enter ${ip.address()}:5000 in the app`);
+console.dir(`Please enter ${ip.address()}:5000 in the app [PhonePi] or just ${ip.address()} [PhonePi+]`);
 
 var httpServer = http.createServer();
 

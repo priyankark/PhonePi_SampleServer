@@ -22,7 +22,7 @@ hostname = socket.gethostname()
 IPAddr = get_ip()
 print("Your Computer Name is: " + hostname)
 print("Your Computer IP Address is: " + IPAddr)
-print("Enter {}:5000 in the app and select the sensors to stream.".format(IPAddr))
+print("Enter {0}:5000 in the app [PhonePi] and select the sensors to stream. For PhonePi+ just enter {0}, without the port".format(IPAddr))
 
 
 async def echo(websocket, path):
