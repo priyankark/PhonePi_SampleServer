@@ -1,0 +1,132 @@
+
+import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
+import 'package:flutter/rendering.dart';
+import 'package:smartgradstudents/Constants.dart';
+import 'package:smartgradstudents/Models/Shop.dart';
+
+
+class firstScreen extends StatefulWidget {
+
+  @override
+  _firstScreenState createState() => _firstScreenState();
+}
+
+class _firstScreenState extends State<firstScreen> {
+  final constants=Constants();
+   List<Shop> dummy = List.generate(10, (index) => Shop(title: "shop$index"));
+
+
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        centerTitle: true,
+        title: Text(
+          "Smart Grad",
+
+          style: TextStyle(
+            fontSize: 30,
+            letterSpacing: 0.5
+          ),
+        ),
+          backgroundColor: constants.red ,
+      ),
+      // body: Container(
+      //   child: Column(
+      //     crossAxisAlignment: CrossAxisAlignment.start,
+      //
+      //     children: [
+      //       Container(
+      //         color: constants.grey,
+      //         height: 50,
+      //         child: Row(
+      //
+      //           children: <Widget>[
+      //             SizedBox(width: 20,),
+      //             Text("Shops",style: TextStyle(fontSize: 25,color: Colors.white),)
+      //
+      //           ],
+      //         ),
+      //
+      //       ),
+      //       // SizedBox(height: 20,),
+      //       // //Row(children: [ SizedBox(width: 20,),Text("Live",style: TextStyle(fontSize: 25 ,color: constants.red),),],  ),
+      //       // SizedBox(height: 20,),
+      //       //
+      //       // SizedBox(height: 20,),
+      //       // Row(children: [ SizedBox(width: 20,),Text("Closed",style: TextStyle(fontSize: 25 ,color: constants.red),),],  ),
+      //       // SizedBox(height: 20,),
+      //       ListView(
+      //         shrinkWrap: true,
+      //         physics: ScrollPhysics(),
+      //         children: <Widget>[
+      //           new SizedBox(height: 20.0),
+      //           new Container(
+      //             child: new ListView(
+      //               shrinkWrap: true,
+      //               children: <Widget>[
+      //                 Column(
+      //                   children: <Widget>[
+      //                     new Container(
+      //                       height: 50.0,
+      //
+      //                       child: new Row(
+      //                         mainAxisAlignment: MainAxisAlignment.start,
+      //                         children: <Widget>[
+      //
+      //                          SizedBox(width: 20,),
+      //                           new Text('Live',
+      //                               style: new TextStyle(
+      //                                   fontSize: 25.0, color: constants.red)),
+      //                         ],
+      //                       ),
+      //                     ),
+      //                     new Container(
+      //                       //TODO:implement shops card
+      //                       height: 150.0,
+      //                       child: new ListView.builder(
+      //                         shrinkWrap: true,
+      //                         scrollDirection: Axis.horizontal,
+      //                         itemCount: dummy.length,
+      //                         itemBuilder: (context, index) {
+      //                           return new Card(
+      //                             elevation: 5.0,
+      //                             child: new Container(
+      //                               height: MediaQuery.of(context).size.width / 3,
+      //                               width: MediaQuery.of(context).size.width / 3,
+      //                               alignment: Alignment.center,
+      //                               child: new Text(dummy[index].title),
+      //                             ),
+      //                           );
+      //
+      //                         },
+      //                       ),
+      //                     ),
+      //                     new SizedBox(height: 20.0),
+      //                   ],
+      //                 ),
+      //                 SizedBox(height: 20,),
+      //                 Column(
+      //                   children: <Widget>[
+      //                     new Container(
+      //                       height: 50.0,
+      //
+      //                       child: new Row(
+      //                         mainAxisAlignment: MainAxisAlignment.start,
+      //                         children: <Widget>[
+      //                           SizedBox(width: 20,),
+      //                           new Padding(
+      //                               padding: const EdgeInsets.only(right: 5.0)),
+      //                           new Text('Closed',
+      //                               style: new TextStyle(
+      //                                   fontSize: 25.0, color: constants.red)),
+      //                         ],
+      //                       ),
+      //                     ),
+      //                     new Container(
+      //                       height: 150.0,
+      //                       //TODO:implement shops card
+      //                       child:new ListView.builder(
+ 
