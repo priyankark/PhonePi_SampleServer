@@ -28,7 +28,7 @@ public class MySocketServer extends WebSocketServer {
 
     @Override
     public void onClose(WebSocket conn, int code, String reason, boolean remote) {
-
+  mSocket.close();
     }
 
     @Override
@@ -44,7 +44,7 @@ public class MySocketServer extends WebSocketServer {
 
     }
     public void onEvent(SocketMessageEvent event) {
-        Log.d("Data", event.getMessage());
+        Log.d("Recieved", event.getMessage());
     }
 }
 
