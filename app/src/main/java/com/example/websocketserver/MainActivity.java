@@ -12,7 +12,7 @@ import java.net.NetworkInterface;
 import java.net.SocketException;
 import java.util.Enumeration;
 
-import de.greenrobot.event.EventBus;
+
 
 public class MainActivity extends AppCompatActivity {
     private static final String TAG = "MyApplication";
