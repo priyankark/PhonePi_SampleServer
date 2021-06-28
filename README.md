@@ -1,6 +1,10 @@
 # PhonePi_SampleServer
 These are simple servers with WebSocket support that accept the sensor data and write it to a text file. These are companion sample servers for the PhonePi Sensor Streamer app.
 
+# Notice
+
+If you are interested in camera and audio streaming (along with other sensors available), please consider downloading Sensor Stream (https://play.google.com/store/apps/details?id=com.sensorsensei)
+
 # Steps:
 * Clone the repository or download the zip file and unzip it to a directory of your choice.
 
