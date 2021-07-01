@@ -3,7 +3,7 @@ These are simple servers with WebSocket support that accept the sensor data and 
 
 # Notice
 
-If you are interested in camera and audio streaming (along with other sensors available), please consider downloading Sensor Stream (https://play.google.com/store/apps/details?id=com.sensorsensei)
+If you are interested in camera and audio streaming (along with other sensors available), please consider downloading Sensor Stream (https://play.google.com/store/apps/details?id=com.sensorsensei) All new updates will be made to this app. It's available for free.
 
 # Steps:
 * Clone the repository or download the zip file and unzip it to a directory of your choice.
