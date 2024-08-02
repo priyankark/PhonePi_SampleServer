@@ -2,7 +2,7 @@
 These are simple servers with WebSocket support that accept the sensor data and write it to a text file. These are companion sample servers for the PhonePi Sensor Streamer app.
 
 # Migration Notice
-Due to changes in the Android ecosystem since the last time the app was updated, we have had to re-write PhonePi. Also we have few extra sensors like camera and mic available in the new version. All new users are requested to download the "Sensor Stream" app (https://play.google.com/store/apps/details?id=com.sensorsensei) especially if you have an Android version >= X. All new updates will be made to this app. It's available for free. A pro version will be available in the upcoming months with more enancements and support for other protocols apart from Web Sockets.
+Due to changes in the Android ecosystem since the last time the app was updated, we have had to re-write PhonePi. Also we have few extra sensors like camera and mic available in the new version. All new users are requested to download the "Sensor Stream" app (https://play.google.com/store/apps/details?id=com.priykum.SensorStream) especially if you have an Android version >= X. All new updates will be made to this app. 
 
 We will continue to support "PhonePi" and "PhonePi+" for as long as feasible and atleast until the new version achieves feature parity with PhonePi+.
 
