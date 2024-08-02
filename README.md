@@ -1,3 +1,5 @@
+# [DEPRECATED]
+
 # PhonePi_SampleServer
 These are simple servers with WebSocket support that accept the sensor data and write it to a text file. These are companion sample servers for the PhonePi Sensor Streamer app.
 
